@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/3NS3p3z/facebook.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Connect with friends, share photos, and stay updated with news and videos.",
+    "size": 90,
+    "reviews": 12000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/W3sdG6n/messenger.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Instant messaging, voice, and video calls with your Facebook friends.",
+    "size": 110,
+    "reviews": 6500000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/ZfZ0mMj/whatsapp.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "description": "Free messaging and calls with end-to-end encryption.",
+    "size": 85,
+    "reviews": 11000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/3dJRTN7/youtube.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch, upload, and share videos from creators around the world.",
+    "size": 125,
+    "reviews": 20000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/ZhxG44V/tiktok.jpg",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "description": "Create and explore short-form videos with music and effects.",
+    "size": 95,
+    "reviews": 9500000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 5800000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/jMXF6Vn/pubg.jpg",
+    "title": "PUBG Mobile",
+    "companyName": "Level Infinite",
+    "description": "Battle royale game with intense multiplayer action and realistic graphics.",
+    "size": 750,
+    "reviews": 22000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/n7YVFTk/mlbb.jpg",
+    "title": "Mobile Legends: Bang Bang",
+    "companyName": "Moonton",
+    "description": "5v5 MOBA action game with heroes, skins, and online battles.",
+    "size": 200,
+    "reviews": 7500000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 4400000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/3vPCgqP/freefire.jpg",
+    "title": "Garena Free Fire",
+    "companyName": "Garena International",
+    "description": "Fast-paced survival shooter game optimized for mobile.",
+    "size": 600,
+    "reviews": 19000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/9yYRpLt/snackvideo.jpg",
+    "title": "SnackVideo",
+    "companyName": "Kuaishou Technology",
+    "description": "Short video platform for sharing fun and trending clips.",
+    "size": 80,
+    "reviews": 4000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/g7Gk8bk/instagram.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Share your moments through photos, videos, and stories.",
+    "size": 110,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 9500000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/vZ92Nq7/bkash.jpg",
+    "title": "bKash",
+    "companyName": "bKash Limited",
+    "description": "Bangladesh’s most popular mobile financial service for sending and receiving money.",
+    "size": 55,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2150000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/Yt6M5Lb/nagad.jpg",
+    "title": "Nagad",
+    "companyName": "Bangladesh Post Office",
+    "description": "Digital financial service for secure mobile transactions.",
+    "size": 48,
+    "reviews": 2200000,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/9hDM5PR/robinhood.jpg",
+    "title": "Toffee",
+    "companyName": "Banglalink Digital",
+    "description": "Watch live TV, movies, and sports in one app.",
+    "size": 75,
+    "reviews": 1800000,
+    "ratingAvg": 4.0,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 930000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/z7XhF9t/googlemaps.jpg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate your world with accurate maps, GPS, and live traffic updates.",
+    "size": 145,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 5800000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/9vhF0N8/capcut.jpg",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "description": "All-in-one video editor for TikTok creators and mobile editors.",
+    "size": 150,
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/X7Hzwnr/snapchat.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Share moments, chat, and explore AR filters and lenses.",
+    "size": 95,
+    "reviews": 8700000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/YD1chX6/subway.jpg",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "description": "Endless running game with fun characters and colorful tracks.",
+    "size": 150,
+    "reviews": 17000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 11500000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/vVsV8Mj/ludu.jpg",
+    "title": "Ludo King",
+    "companyName": "Gametion Technologies Pvt Ltd",
+    "description": "Play the classic Ludo board game with your friends online.",
+    "size": 65,
+    "reviews": 10000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/JmVmkMn/pinterest.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Discover ideas for home design, recipes, fashion, and more.",
+    "size": 85,
+    "reviews": 4200000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/BZkSc7z/googlechrome.jpg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Fast, secure, and widely used web browser for Android.",
+    "size": 190,
+    "reviews": 21000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 14200000 }
+    ]
+  }
+]
