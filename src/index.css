@@ -1,2 +1,2 @@
 @import "tailwindcss";
-npm i -D daisyui@latest
+@plugin "daisyui";

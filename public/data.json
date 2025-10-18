@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/3NS3p3z/facebook.jpg",
+    "image": "https://ibb.co.com/HTT3d10k",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "description": "Connect with friends, share photos, and stay updated with news and videos.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/W3sdG6n/messenger.jpg",
+    "image": "https://ibb.co.com/cKFd1t0g",
     "title": "Messenger",
     "companyName": "Meta Platforms, Inc.",
     "description": "Instant messaging, voice, and video calls with your Facebook friends.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/ZfZ0mMj/whatsapp.jpg",
+    "image": "https://ibb.co.com/FkxfyYpp",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "description": "Free messaging and calls with end-to-end encryption.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/3dJRTN7/youtube.jpg",
+    "image": "https://ibb.co.com/s9DndCzf",
     "title": "YouTube",
     "companyName": "Google LLC",
     "description": "Watch, upload, and share videos from creators around the world.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/ZhxG44V/tiktok.jpg",
+    "image": "https://ibb.co.com/SD50VF1n",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "description": "Create and explore short-form videos with music and effects.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/jMXF6Vn/pubg.jpg",
+    "image": "https://ibb.co.com/8g45Xn0C",
     "title": "PUBG Mobile",
     "companyName": "Level Infinite",
     "description": "Battle royale game with intense multiplayer action and realistic graphics.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/n7YVFTk/mlbb.jpg",
+    "image": "https://ibb.co.com/0y40msZt",
     "title": "Mobile Legends: Bang Bang",
     "companyName": "Moonton",
     "description": "5v5 MOBA action game with heroes, skins, and online battles.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/3vPCgqP/freefire.jpg",
+    "image": "https://ibb.co.com/bjfCzcbH",
     "title": "Garena Free Fire",
     "companyName": "Garena International",
     "description": "Fast-paced survival shooter game optimized for mobile.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/9yYRpLt/snackvideo.jpg",
+    "image": "https://ibb.co.com/xKRzQqK1",
     "title": "SnackVideo",
     "companyName": "Kuaishou Technology",
     "description": "Short video platform for sharing fun and trending clips.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/g7Gk8bk/instagram.jpg",
+    "image": "https://ibb.co.com/WNpgmJ9V",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "description": "Share your moments through photos, videos, and stories.",
@@ -181,25 +181,25 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co/vZ92Nq7/bkash.jpg",
-    "title": "bKash",
-    "companyName": "bKash Limited",
-    "description": "Bangladesh’s most popular mobile financial service for sending and receiving money.",
-    "size": 55,
-    "reviews": 3500000,
-    "ratingAvg": 4.2,
-    "downloads": 50000000,
+    "image": "https://ibb.co.com/ZphyF7k4",
+    "title": "Programming Hero",
+    "companyName": "Programming Hero Ltd.",
+    "description": "An interactive coding learning app that makes programming fun and beginner-friendly. Learn web development, Python, and more with practical projects.",
+    "size": 60,
+    "reviews": 120000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
     "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 2150000 }
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 80000 }
     ]
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co/Yt6M5Lb/nagad.jpg",
+    "image": "https://ibb.co.com/YB40yHcy",
     "title": "Nagad",
     "companyName": "Bangladesh Post Office",
     "description": "Digital financial service for secure mobile transactions.",
@@ -217,9 +217,9 @@
   },
   {
     "id": 13,
-    "image": "https://i.ibb.co/9hDM5PR/robinhood.jpg",
+    "image": "https://ibb.co.com/LDp8Gv7r",
     "title": "Toffee",
-    "companyName": "Banglalink Digital",
+    "companyName": "BanglaLink Digital",
     "description": "Watch live TV, movies, and sports in one app.",
     "size": 75,
     "reviews": 1800000,
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.ibb.co/z7XhF9t/googlemaps.jpg",
+    "image": "https://ibb.co.com/cKj05sYm",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "description": "Navigate your world with accurate maps, GPS, and live traffic updates.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.ibb.co/9vhF0N8/capcut.jpg",
+    "image": "https://ibb.co.com/ZRMfRQKF",
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "description": "All-in-one video editor for TikTok creators and mobile editors.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.ibb.co/X7Hzwnr/snapchat.jpg",
+    "image": "https://ibb.co.com/0zkBRTS",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "description": "Share moments, chat, and explore AR filters and lenses.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "https://i.ibb.co/YD1chX6/subway.jpg",
+    "image": "https://ibb.co.com/6QwbTKX",
     "title": "Subway Surfers",
     "companyName": "SYBO Games",
     "description": "Endless running game with fun characters and colorful tracks.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://i.ibb.co/vVsV8Mj/ludu.jpg",
+    "image": "https://ibb.co.com/ZzwXFW4N",
     "title": "Ludo King",
     "companyName": "Gametion Technologies Pvt Ltd",
     "description": "Play the classic Ludo board game with your friends online.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.ibb.co/JmVmkMn/pinterest.jpg",
+    "image": "https://ibb.co.com/D3dPHYD",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "description": "Discover ideas for home design, recipes, fashion, and more.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "https://i.ibb.co/BZkSc7z/googlechrome.jpg",
+    "image": "https://ibb.co.com/VW3ydNCM",
     "title": "Google Chrome",
     "companyName": "Google LLC",
     "description": "Fast, secure, and widely used web browser for Android.",

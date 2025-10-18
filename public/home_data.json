@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://ibb.co.com/qF7CSZgR",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Stream millions of songs and podcasts on demand, online or offline.",
+    "size": 120,
+    "reviews": 13000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 8100000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://ibb.co.com/SwszMRbs",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Cloud-based messaging app focused on speed and privacy.",
+    "size": 85,
+    "reviews": 9800000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://ibb.co.com/5X0XqJy7",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Watch movies, series, and documentaries anytime, anywhere.",
+    "size": 160,
+    "reviews": 25000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 16500000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://ibb.co.com/VW3ydNCM",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Fast, secure, and widely used web browser for Android.",
+    "size": 190,
+    "reviews": 21000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 14200000 }
+    ]
+  },
+    {
+    "id": 5,
+    "image": "https://ibb.co.com/0zkBRTS",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Share moments, chat, and explore AR filters and lenses.",
+    "size": 95,
+    "reviews": 8700000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+    {
+    "id": 6,
+    "image": "https://ibb.co.com/xKRzQqK1",
+    "title": "SnackVideo",
+    "companyName": "Kuaishou Technology",
+    "description": "Short video platform for sharing fun and trending clips.",
+    "size": 80,
+    "reviews": 4000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://ibb.co.com/WNpgmJ9V",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Share your moments through photos, videos, and stories.",
+    "size": 110,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 9500000 }
+    ]
+  },
+ {
+    "id": 8,
+    "image": "https://ibb.co.com/D3dPHYD",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Discover ideas for home design, recipes, fashion, and more.",
+    "size": 85,
+    "reviews": 4200000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  }
+]
