@@ -2,8 +2,9 @@ import React from "react";
 import { Download, Star } from "lucide-react";
 import { Link } from "react-router";
 
-const HomeApp = ({ apps }) => {
-  const { image, title, downloads, ratingAvg, id } = apps;
+const AllApp = ({ app }) => {
+  //   console.log(app);
+  const { image, title, downloads, ratingAvg, id } = app;
 
   return (
     <div className="flex justify-center w-full">
@@ -36,4 +37,4 @@ const HomeApp = ({ apps }) => {
   );
 };
 
-export default HomeApp;
+export default AllApp;

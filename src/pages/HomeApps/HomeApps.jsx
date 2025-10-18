@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import HomeApp from "./HomeApp";
+import { Link } from "react-router";
 
 const HomeApps = ({ homeApps }) => {
   return (
@@ -24,6 +25,15 @@ const HomeApps = ({ homeApps }) => {
           ))}
         </div>
       </Suspense>
+
+      <div className="flex justify-center mt-10">
+        <Link
+          to={"/apps"}
+          className="btn bg-gradient-to-r from-purple-500 to-indigo-500 text-white mb-16"
+        >
+          View All Apps
+        </Link>
+      </div>
     </div>
   );
 };

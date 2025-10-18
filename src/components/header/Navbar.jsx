@@ -118,8 +118,6 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             href="https://github.com/mehedihasan53"
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn bg-gradient-to-r from-purple-500 to-indigo-500 text-white hover:from-purple-600 hover:to-indigo-600"
           >
             <FaGithub className="mr-2 text-lg" />
