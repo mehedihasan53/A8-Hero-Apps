@@ -18,7 +18,7 @@ const Apps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
 
-      {/* Search + Total count */}
+      {/* Search + Total count  */}
       <div className="flex justify-between items-center mt-6 mb-4">
         <span className="text-gray-700 font-medium">
           Total Apps: {filteredApps.length}

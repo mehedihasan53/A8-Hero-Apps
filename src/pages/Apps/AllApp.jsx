@@ -8,7 +8,7 @@ const AllApp = ({ app }) => {
 
   return (
     <div className="flex justify-center w-full">
-      <Link to={`appsDetails/${id}`} className="w-72 sm:w-72 lg:w-64">
+      <Link to={`/detailsApp/${id}`} className="w-72 sm:w-72 lg:w-64">
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md hover:scale-105 transition-all duration-200">
           <div className="w-full h-40 flex items-center justify-center bg-gray-100">
             <img src={image} alt={title} className="w-28 h-28 object-contain" />

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useLoaderData, useParams } from "react-router";
+import React, { useState, useEffect } from "react";
+import { useLoaderData, useParams } from "react-router-dom";
 import noAppFound from "../../assets/App-Error.png";
 import {
   BarChart,
@@ -12,15 +12,15 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import { Download, Star, ThumbsUp } from "lucide-react";
 import "react-toastify/dist/ReactToastify.css";
+import { addToInstall, getInstalledApp } from "../../utility/AddToInstall";
 
-const AppsDetails = () => {
+const DetailsApp = () => {
   const { id } = useParams();
-  const appsId = parseInt(id);
-  const appData = useLoaderData();
+  const appId = parseInt(id);
+  const appsData = useLoaderData();
+  const singleApp = appsData.find((app) => app.id === appId);
 
-  const singleAppData = appData.find((app) => app.id === appsId);
-
-  if (!singleAppData)
+  if (!singleApp) {
     return (
       <div className="flex justify-center items-center mt-10">
         <img
@@ -30,6 +30,7 @@ const AppsDetails = () => {
         />
       </div>
     );
+  }
 
   const {
     image,
@@ -41,16 +42,30 @@ const AppsDetails = () => {
     ratings,
     downloads,
     ratingAvg,
-  } = singleAppData;
+  } = singleApp;
 
   const [installed, setInstalled] = useState(false);
 
+  useEffect(() => {
+    const installedApps = getInstalledApp();
+    const alreadyInstalled = installedApps.some((a) => a.id === appId);
+    setInstalled(alreadyInstalled);
+  }, [appId]);
+
   const handleInstall = () => {
-    setInstalled(true);
-    toast.success(`${title} installed successfully!`, {
-      position: "top-right",
-      autoClose: 2000,
-    });
+    const success = addToInstall(singleApp);
+    if (success) {
+      setInstalled(true);
+      toast.success(`${title} installed successfully!`, {
+        position: "top-right",
+        autoClose: 2000,
+      });
+    } else {
+      toast.info(`${title} is already installed!`, {
+        position: "top-right",
+        autoClose: 2000,
+      });
+    }
   };
 
   const ratingsData = ratings.map((item) => ({
@@ -61,15 +76,12 @@ const AppsDetails = () => {
   return (
     <div className="max-w-6xl mx-auto py-12 px-6 bg-white min-h-screen text-gray-800">
       <div className="flex flex-col md:flex-row items-center gap-10 border-b border-gray-300 pb-10">
-        <div className="flex-shrink-0">
-          <img
-            src={image}
-            alt={title}
-            className="w-40 h-40 object-contain rounded-2xl shadow-lg"
-          />
-        </div>
+        <img
+          src={image}
+          alt={title}
+          className="w-40 h-40 object-contain rounded-2xl shadow-lg"
+        />
 
-        {/* App Details */}
         <div className="flex-1 space-y-2">
           <h2 className="text-2xl md:text-3xl font-semibold">{title}</h2>
           <p className="text-gray-500">
@@ -105,7 +117,6 @@ const AppsDetails = () => {
             </div>
           </div>
 
-          {/* Install Button  */}
           <button
             onClick={handleInstall}
             disabled={installed}
@@ -120,7 +131,6 @@ const AppsDetails = () => {
         </div>
       </div>
 
-      {/* Ratings Chart  */}
       <div className="bg-white mt-10 p-6 rounded-2xl shadow-md">
         <h3 className="text-xl font-semibold mb-5 text-gray-800">
           Ratings Distribution
@@ -160,4 +170,4 @@ const AppsDetails = () => {
   );
 };
 
-export default AppsDetails;
+export default DetailsApp;
