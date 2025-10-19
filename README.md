@@ -1,16 +1,38 @@
-# React + Vite
+# 🎯 Hero Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [Hero Apps on Netlify](https://celebrated-gumdrop-a83702.netlify.app/apps)  
+**Repository:** [GitHub Repo](https://github.com/mehedihasan53/A8-Hero-Apps.git)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Description
 
-## React Compiler
+Hero Apps is a single-page application (SPA) built to display and manage a collection of modern applications.  
+Users can explore, search, view app details, and even simulate installing their favorite apps — all in one smooth experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Core Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Search Apps** — Instantly filter apps by name
+- 📱 **App Details Page** — Displays complete info about each app
+- 💾 **Install Simulation** — Add or remove apps using localStorage
+- 📊 **Sort Installed Apps** — Sort by download count (high → low / low → high)
+- 🔄 **Loading Spinner** — Smooth loading transitions between pages
+- 🧭 **Client-side Routing** — Built with React Router for seamless navigation
+- 🧠 **Responsive Design** — Optimized for all devices
+
+---
+
+## 🧰 Technologies Used
+
+| Category       | Tools / Libraries                 |
+| -------------- | --------------------------------- |
+| Frontend       | React, Vite, Tailwind CSS         |
+| Routing        | React Router DOM                  |
+| Icons          | Lucide React                      |
+| Deployment     | Netlify                           |
+| State Handling | React useState, useEffect         |
+| Storage        | LocalStorage for install tracking |
+
+---
