@@ -8,6 +8,11 @@ const Root = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
+  // Scroll to top
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location.pathname]);
+
   useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => setLoading(false), 300);

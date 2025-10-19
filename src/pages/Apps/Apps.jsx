@@ -1,4 +1,4 @@
-import React, { useState, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
 import AllApp from "./AllApp";
 import noAppFound from "../../assets/App-Error.png";
@@ -6,10 +6,21 @@ import noAppFound from "../../assets/App-Error.png";
 const Apps = () => {
   const apps = useLoaderData();
   const [searchTerm, setSearchTerm] = useState("");
+  const [filteredApps, setFilteredApps] = useState(apps);
+  const [loading, setLoading] = useState(false);
 
-  const filteredApps = apps.filter((app) =>
-    app.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => {
+      const filtered = apps.filter((app) =>
+        app.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredApps(filtered);
+      setLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, [searchTerm, apps]);
 
   return (
     <div className="container mx-auto px-4 mt-20">
@@ -18,7 +29,6 @@ const Apps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
 
-      {/* Search + Total count  */}
       <div className="flex justify-between items-center mt-6 mb-4">
         <span className="text-gray-700 font-medium">
           Total Apps: {filteredApps.length}
@@ -32,25 +42,28 @@ const Apps = () => {
         />
       </div>
 
-      <Suspense
-        fallback={<span className="loading loading-dots loading-lg"></span>}
-      >
-        {filteredApps.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
-            {filteredApps.map((app) => (
-              <AllApp key={app.id} app={app} />
-            ))}
+      {loading ? (
+        <div className="flex justify-center items-center mt-20">
+          <div className="flex flex-col items-center gap-4">
+            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-indigo-600"></div>
+            <p className="text-gray-600 font-medium">Searching apps...</p>
           </div>
-        ) : (
-          <div className="flex justify-center items-center mt-10">
-            <img
-              src={noAppFound}
-              alt="No App Found"
-              className="w-72 h-72 object-contain"
-            />
-          </div>
-        )}
-      </Suspense>
+        </div>
+      ) : filteredApps.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
+          {filteredApps.map((app) => (
+            <AllApp key={app.id} app={app} />
+          ))}
+        </div>
+      ) : (
+        <div className="flex justify-center items-center mt-10">
+          <img
+            src={noAppFound}
+            alt="No App Found"
+            className="w-72 h-72 object-contain"
+          />
+        </div>
+      )}
     </div>
   );
 };

@@ -48,7 +48,7 @@ const Banner = () => {
           />
         </div>
       </div>
-      {/* Trusted By Millions Section */}
+
       <div className=" bg-gradient-to-r from-indigo-600 to-purple-500 text-white py-14 px-5">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold">

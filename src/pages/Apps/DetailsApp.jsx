@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import noAppFound from "../../assets/App-Error.png";
 import {
@@ -60,6 +60,9 @@ const DetailsApp = () => {
         position: "top-right",
         autoClose: 2000,
       });
+
+      const event = new Event("appInstalled");
+      window.dispatchEvent(event);
     } else {
       toast.info(`${title} is already installed!`, {
         position: "top-right",

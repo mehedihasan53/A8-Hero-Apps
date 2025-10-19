@@ -6,7 +6,6 @@ const getInstalledApp = () => {
 const addToInstall = (app) => {
     const installedAppArray = getInstalledApp();
     const alreadyInstalled = installedAppArray.some((a) => a.id === app.id);
-
     if (alreadyInstalled) return false;
 
     installedAppArray.push(app);
