@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../../components/header/Navbar";
-import { Outlet } from "react-router";
 import Footer from "../../components/Footer/Footer";
-import Banner from "../../components/header/Banner";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Root = () => {
+  const location = useLocation();
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 300);
+    return () => clearTimeout(timer);
+  }, [location.pathname]);
+
   return (
     <div>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+      <Navbar />
+      {loading && <LoadingSpinner />}
+      <div className="min-h-screen">
+        <Outlet />
+      </div>
+      <Footer />
     </div>
   );
 };
