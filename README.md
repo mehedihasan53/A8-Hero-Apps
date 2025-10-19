@@ -1,38 +1,35 @@
 # 🎯 Hero Apps
 
-**Live Site:** [Hero Apps on Netlify](https://celebrated-gumdrop-a83702.netlify.app/apps)  
-**Repository:** [GitHub Repo](https://github.com/mehedihasan53/A8-Hero-Apps.git)
+**Live Site:** [Hero Apps](https://celebrated-gumdrop-a83702.netlify.app/apps)  
+**GitHub Repo:** [A8-Hero-Apps](https://github.com/mehedihasan53/A8-Hero-Apps.git)
 
 ---
 
-## 📝 Description
+## 📝 About the Project
 
-Hero Apps is a single-page application (SPA) built to display and manage a collection of modern applications.  
-Users can explore, search, view app details, and even simulate installing their favorite apps — all in one smooth experience.
-
----
-
-## ⚙️ Core Features
-
-- 🔍 **Search Apps** — Instantly filter apps by name
-- 📱 **App Details Page** — Displays complete info about each app
-- 💾 **Install Simulation** — Add or remove apps using localStorage
-- 📊 **Sort Installed Apps** — Sort by download count (high → low / low → high)
-- 🔄 **Loading Spinner** — Smooth loading transitions between pages
-- 🧭 **Client-side Routing** — Built with React Router for seamless navigation
-- 🧠 **Responsive Design** — Optimized for all devices
+Hero Apps is a React-based single-page app where users can explore, search, and view app details.  
+You can also "install" apps (stored in localStorage) and sort them by download count.
 
 ---
 
-## 🧰 Technologies Used
+## ⚙️ Features
 
-| Category       | Tools / Libraries                 |
-| -------------- | --------------------------------- |
-| Frontend       | React, Vite, Tailwind CSS         |
-| Routing        | React Router DOM                  |
-| Icons          | Lucide React                      |
-| Deployment     | Netlify                           |
-| State Handling | React useState, useEffect         |
-| Storage        | LocalStorage for install tracking |
+- Search apps by name
+- View detailed app information
+- Add or remove apps (Install simulation)
+- Sort installed apps (High → Low or Low → High downloads)
+- Loading spinner during navigation
+- Fully responsive for all devices
+
+---
+
+## 🧰 Technologies
+
+- **React + Vite**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Lucide React (icons)**
+- **Netlify (deployment)**
+- **LocalStorage (install tracking)**
 
 ---
