@@ -19,7 +19,7 @@ You can also "install" apps (stored in localStorage) and sort them by download c
 - Add or remove apps (Install simulation)
 - Sort installed apps (High → Low or Low → High downloads)
 - Loading spinner during navigation
-- Fully responsive for all devices
+- Fully responsive for all device
 
 ---
 
